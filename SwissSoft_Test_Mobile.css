@@ -1,0 +1,82 @@
+@media all and (max-width: 1030px)
+{
+ .layout {flex-direction: column} 
+ .checkbox {margin: auto auto auto auto;}
+ .checkbox ul {margin-left: 0px}
+ #seeAll .button {margin: auto}
+}
+
+@media all and (max-width: 880px)
+{
+ #items {flex-direction: column}
+ .clothes{margin: auto auto 30px auto}
+ .clothes:last-child {margin-bottom: 0px}
+}
+
+@media all and (max-width: 720px)
+{
+ #twit p {text-align: center}
+ #twit .fa-twitter {padding-left: 0px}
+ #footer {flex-direction: column}
+ .trekking {margin: 50px auto 50px auto;
+			text-align: center}
+.map {margin: 0px auto 50px auto;
+	  text-align: center}
+}
+
+@media all and (max-width: 650px)
+{
+ .Header {padding: 30px 50px}
+ .Block {padding: 100px 50px}
+}
+
+@media all and (max-width: 600px)
+{
+.Nav li {display: block;
+	padding-left: 0px;
+	text-align: right}
+}
+
+@media all and (max-width: 560px)
+{
+ .checkbox ul li {display: block;
+				  padding: 0px;
+				  text-align: left;
+				  line-height: 1.5em;}
+				  
+ .checkbox ul {margin: 20px 0px;}
+}
+
+@media all and (max-width: 500px)
+{
+ .trekking {padding-right: 10px;
+			padding-left: 10px}
+}
+
+@media all and (max-width: 450px)
+{
+#items {margin: 50px auto 50px auto}
+.clothes {width: 100%}
+.clothes:hover {border: none;
+				border-radius: 0px;
+				box-shadow: none;
+				outline: solid rgb(170, 155, 119) 5px}
+.map ul li {display: block;
+			border: none;
+			padding: 0px;
+			line-height: 1.5em}
+			
+.Block h1 {font-size: 2em}
+}
+
+@media all and (max-width: 400px)
+{
+.Block {font-size: 0.8em}
+}
+
+@media all and (max-width: 310px)
+{
+ .Header {padding: 20px 30px}
+ .Block {padding: 100px 30px}
+ #twit {height: 120px}
+}

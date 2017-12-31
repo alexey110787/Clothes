@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang='en' ng-app='testTask'>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Page</title>
+		<link type='text/css' rel='stylesheet' href='SwissSoft_Test.css'>
+		<link type='text/css' rel='stylesheet' href='SwissSoft_Test_Mobile.css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src='JS.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src='app.js'></script>
+		<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1"> 
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='font-awesome-4.7.0/css/font-awesome.css' rel='stylesheet'>
+		<link rel="icon" href="images/boot.png" type="image/png">
+	</head>
+	<body>
+		<div class="Wrapper">
+			<div class='glass'>
+				<div class="Header">
+					<div class="Logo">
+						<img src='images/boot.png' alt='Логотип' title='Логотип'>
+					</div>
+					<div class="Nav">
+						<ul>
+							<li><a href=''>Home</a></li>
+							<li><a href=''>Products</a></li>
+							<li><a href=''><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="Block">
+					<h1>Our clothing, your comfort</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.</p>
+				</div>
+				<a class='scroll' href='#layout'><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<section>
+			<div class='layout' id='layout' ng-controller='productsCtrl'>
+				<div class='checkbox'>
+					<ul>
+						<li><label><input type='checkbox' ng-click='' checked> MEN</label></li>
+						<li><label><input type='checkbox' ng-click='' checked> WOMEN</label></li>
+						<li><label><input type='checkbox' ng-click=''> CHILDROBOTOREN</label></li>
+					</ul>
+				</div>
+				<div id='seeAll'>
+					<div class='button' ng-click=''>SEE ALL PRODROBOTOUCTS</div>
+				</div>
+			</div>
+			<div id='items'>
+				<div class='clothes'>
+					<span class='choise'>SIZE<i class="fa fa-chevron-down size" aria-hidden="true" ng-click=''></i></span>
+					<img src='images/shirt.png' alt='Товар' title='Товар'>
+					<span class='itemName'>T-SHIRT</span>
+					<span class='price'>5.00</span>
+				</div>
+				<div class='clothes center'>
+					<span class='choise'>SIZE<i class="fa fa-chevron-down size" aria-hidden="true" ng-click=''></i></span>
+					<img src='images/jeans.png' alt='Товар' title='Товар'>
+					<span class='itemName'>PANTS FORCLAZ</span>
+					<span class='price'>30.00</span>
+				</div>
+				<div class='clothes'>
+					<span class='choise'>10 LITRI<i class="fa fa-chevron-down size" aria-hidden="true" ng-click=''></i></span>
+					<img src='images/bag.png' alt='Товар' title='Товар'>
+					<span class='itemName'>BACKPACK</span>
+					<span class='price'>60.00</span>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id='twit'>
+				 <p><i class="fa fa-twitter" aria-hidden="true"></i>&ldquo;E-commerce psd theme available&rdquo;</p>
+			</div>
+			<div id='footer'>
+				<div class='trekking'>
+					<h2>TREKKING</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat</p>
+				</div>
+				<div class='map' ng-controller='menuCtrl'>
+					<ul>
+						<li><a href='' ng-click=''>CREDITS</a></li>
+						<li><a href='' ng-click=''>PRIVACY</a></li>
+						<li><a href='' ng-click=''>ABOUT</a></li>
+						<li><a href='' ng-click=''>CONTACT</a></li>
+					</ul>
+					<span class="policy">Design by guanluca cosetta</span>
+				</div>
+			</div>
+		</footer>
+			
+		<script>
+		</script>
+	</body>
+</html>
